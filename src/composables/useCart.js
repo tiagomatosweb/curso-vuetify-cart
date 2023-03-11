@@ -1,7 +1,8 @@
 import { computed, ref } from 'vue';
+import { useStorage } from '@vueuse/core';
 
 const isOpen = ref(false);
-const cart = ref([]);
+const cart = useStorage('cart', [])
 
 export const useCart = () => {
   function open() {
@@ -31,6 +32,10 @@ export const useCart = () => {
     }
   }
 
+  function inCart(id) {
+    return cart.value.some(o => o.id === id);
+  }
+
   const isEmpty = computed(() => !cart.value.length);
 
   const total = computed(() => {
@@ -49,5 +54,6 @@ export const useCart = () => {
     cart,
     isEmpty,
     total,
+    inCart,
   };
 }
