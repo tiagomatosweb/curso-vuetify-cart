@@ -1,0 +1,68 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Monitor LG 23.8' IPS, Full HD, HDMI, VESA, Ajuste de Ângulo - 24MK430H",
+            "image": "https://images.kabum.com.br/produtos/fotos/99866/monitor-lg-led-23-8-widescreen-full-hd-ips-hdmi-24mk430h_1547830365_m.jpg",
+            "price": 965.99,
+            "promotion": 759.99,
+            "conditions": "À vista no PIX"
+        },
+        {
+            "id": 2,
+            "name": "Monitor Gamer LG 27 Full HD, IPS, HDMI e VESA, FreeSync, Ajuste de Ângulo, Bordas Finas - 27MP400-B",
+            "image": "https://images.kabum.com.br/produtos/fotos/323895/monitor-lg-27-full-hd-ips-hdmi-vesa-freesync-preto-27mp400_1648647549_m.jpg",
+            "price": 1194,
+            "promotion": 899.99,
+            "conditions": "À vista no PIX"
+        },
+        {
+            "id": 3,
+            "name": "Monitor Gamer LG 26 IPS, Ultra Wide, 75Hz, Full HD, 1ms, FreeSync Premium, HDR 10, 99% sRGB, HDMI, VESA - 26WQ500",
+            "image": "https://images.kabum.com.br/produtos/fotos/371253/monitor-gamer-lg-26-ips-ultra-wide-75hz-full-hd-1ms-freesync-premium-hdr-10-99-srgb-hdmi-displayport-vesa-26wq500_1661181623_m.jpg",
+            "price": 1136,
+            "promotion": null,
+            "conditions": null
+        },
+        {
+            "id": 4,
+            "name": "Monitor Gamer LG Ultra Gear 27 Full HD, 144 Hz, 1ms, IPS, HDMI e DisplayPort, sRGB 99%, HDR10, FreeSync, VESA, Altura Ajustável - 27GL650F-B",
+            "image": "https://images.kabum.com.br/produtos/fotos/380514/monitor-gamer-lg-ultra-gear-27-full-hd-144-hz-1ms-ips-hdmi-e-displayport-srgb-99-hdr10-freesync-vesa-altura-ajustavel-27gl650f-b_1661366332_m.jpg",
+            "price": 1399.99,
+            "promotion": null,
+            "conditions": null
+        },
+        {
+            "id": 5,
+            "name": "Monitor Gamer LG Ultra Gear 23.8' IPS, 144 Hz, Full HD, 1ms, FreeSync, HDR 10, 99% sRGB, HDMI/DisplayPort, Ajuste de Ângulo - 24GN600-B",
+            "image": "https://images.kabum.com.br/produtos/fotos/353747/monitor-gamer-lg-ultra-gear-23-8-full-hd-144hz-1ms-ips-dmi-displayport-99-srgb-ajuste-de-angulo-freesync-hdr10-preto-24gn600-b_1654113935_m.jpg",
+            "price": 1259.99,
+            "promotion": null,
+            "conditions": null
+        },
+        {
+            "id": 6,
+            "name": "Monitor Gamer LG 34 LED Ultra Wide Curvo, 160 Hz, QHD, 1ms, HDMI/DisplayPort, 99% sRGB, FreeSync Premium, HDR 10, VESA, Preto - 34WP65C-B",
+            "image": "https://images.kabum.com.br/produtos/fotos/364836/monitor-gamer-lg-32-led-ultra-wide-165-hz-qhd-1ms-hdmi-displayport-99-srgb-freesync-premium-hdr-10-vesa-preto-34wp65c-b_1658780270_m.jpg",
+            "price": 2649.99,
+            "promotion": null,
+            "conditions": null
+        },
+        {
+            "id": 7,
+            "name": "Monitor Gamer Husky Snow 23.6' LED, Curvo, 165 Hz, Full HD, 1ms, Adaptive Sync, HDMI/DisplayPort, Ajuste de Ângulo - HGMT000",
+            "image": "https://images.kabum.com.br/produtos/fotos/115383/monitor-gamer-husky-snow-led-23-6-widescreen-curvo-fhd-hdmi-dp-144hz-1ms-freesync-mo-hsn-24c_1608639450_m.jpg",
+            "price": 1199.99,
+            "promotion": null,
+            "conditions": "À vista no PIX"
+        },
+        {
+            "id": 8,
+            "name": "Monitor LG 19.5 HD, 60Hz, 2ms, Split, VGA e HDMI, Ajuste De Inclinação, Reader Mode, 4-Screen, Preto - 20MK400H-B",
+            "image": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/119721/Monitor-LG-19-5-HD-60Hz-2ms-Split-VGA-e-HDMI-Ajuste-De-Inclina-o-Reader-Mode-4-Screen-Preto-20MK400H-B_1677850733_m.jpg",
+            "price": 519.90,
+            "promotion": null,
+            "conditions": null
+        }
+    ]
+}
