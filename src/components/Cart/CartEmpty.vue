@@ -6,3 +6,9 @@
     </div>
   </div>
 </template>
+
+<script setup>
+import { useCart } from '@/composables/useCart';
+
+const { close } = useCart()
+</script>

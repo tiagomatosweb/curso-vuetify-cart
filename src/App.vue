@@ -47,11 +47,11 @@
                   <div class="my-4">
                     <template v-if="product.promotion">
                       <div class="font-weight-light text-decoration-line-through mb-n2">R$ {{ product.price }}</div>
-                      <div class="text-h5 font-weight-bold">R$ {{ product.promotion }}</div>
+                      <div class="text-h5 font-weight-bold">{{ formatPrice(product.promotion) }}</div>
                     </template>
 
                     <template v-else>
-                      <div class="text-h5 font-weight-bold">R$ {{ product.price }}</div>
+                      <div class="text-h5 font-weight-bold">{{ formatPrice(product.price) }}</div>
                     </template>
 
                     <div v-if="product.conditions" class="font-weight-light">{{ product.conditions }}</div>
@@ -70,6 +70,7 @@
 
 <script setup>
 import axios from 'axios'
+import { formatPrice } from '@/helpers/helpers'
 import { useAsyncState } from '@vueuse/core'
 import { useCart } from '@/composables/useCart';
 import Cart from '@/components/Cart/Cart.vue';
