@@ -225,7 +225,7 @@
                     <div v-if="product.conditions" class="font-weight-light">{{ product.conditions }}</div>
                   </div>
 
-                  <v-btn flat block color="primary">Adicionar</v-btn>
+                  <v-btn flat block color="primary" @click="add(product)">Adicionar</v-btn>
                 </v-card-text>
               </v-card>
             </v-col>
@@ -240,7 +240,7 @@
 import axios from 'axios'
 import { useAsyncState } from '@vueuse/core'
 import { useCart } from '@/composables/useCart';
-const { isOpen, open, close } = useCart()
+const { isOpen, open, close, add, cart } = useCart()
 
 const { state: products, isLoading } = useAsyncState(
   axios
